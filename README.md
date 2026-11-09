@@ -1,26 +1,26 @@
-# ms-senate-2026
+# How Colom got ahead
 
-County-by-county look at the 2026 Mississippi Senate race. Colom vs Hyde-Smith, lined up against her 2020 race against Espy.
+https://daresthedevil.github.io/ms-senate-2026/
 
-Live page: https://daresthedevil.github.io/ms-senate-2026/
+Scott Colom is leading Cindy Hyde-Smith in the 2026 Mississippi Senate race by about 2,600 votes out of 953,000. The race hasn't been called. Counties certify Nov 13.
 
-## What's in here
+I wanted to know where that lead actually came from, so I lined up all 82 counties against Hyde-Smith's 2020 race against Mike Espy. Same incumbent, so it's a fair comparison.
 
-- `index.html`, `app.js`, `page.css`: the page. Every number on it is computed from the data file.
-- `data/counties.csv` and `data/counties.json`: all 82 counties. 2026 and 2020 Senate votes, plus 2020 Census Black population share.
-- `meridian/`: my design system tokens and the few components the page uses.
+## What it shows
 
-## Data
+- Her vote fell off harder than his. Hyde-Smith got 65.6% of her 2020 vote. Colom got 80.9% of what Espy got. Both dropped in every single county, because it's a midterm. Hers just dropped more.
+- Seven counties did half the work. DeSoto, Rankin, Harrison, Jackson, Lamar, Jones and Madison. None of them are majority-Black. Hinds actually moved toward Hyde-Smith because it cast about 22,000 fewer votes than in 2020.
+- The swing was everywhere. 75 of 82 counties moved toward Colom. A county's Black share predicts basically nothing about how far it moved. The suburbs moved the most. DeSoto swung 22 points.
+- Turnout favored Black-majority counties, but not by much. They cast 74.6% of their 2020 vote, compared with 71.3% in counties under 30% Black. Against 2024 the gap looks bigger. That's the comparison the national "surge" stories use.
+- Seven counties flipped. None went back. DeSoto, Madison, Forrest, Lafayette, Winston, Grenada and Yalobusha. The "18 counties" number going around is measured against Trump 2024.
+- The late ballots didn't save her. The lead grew from 43 votes on election night as affidavits and absentees came in.
 
-- 2026 and 2020 county returns from civicAPI, read off Poliwave's Mississippi Senate page on Nov 9, 2026 at 11:41 a.m. CT. Unofficial. Every county's candidate votes add up to its total.
-- Black population share from the 2020 Census, via Census Dots.
+The page also checks a handful of claims made since election night against the returns, and has the full county table.
 
-Counties certify Nov 13. Numbers will move until then.
+## What it can't tell you
 
-## Run it locally
+County totals don't show whether a 2020 Hyde-Smith voter stayed home, voted Colom, or voted Pinkins. They all look the same in the totals. The survey estimates on the page try to answer that, but they're models, and they don't add up to the actual result.
 
-It fetches `data/counties.json`, so opening the file directly won't work. Serve the folder:
+## Where the numbers came from
 
-```
-python3 -m http.server
-```
+Unofficial county returns from civicAPI, read Nov 9 at 11:41 a.m. CT. Black population share is from the 2020 Census. The full table is in `data/counties.csv`. Numbers will move until certification.
