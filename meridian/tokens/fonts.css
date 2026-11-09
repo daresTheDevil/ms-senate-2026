@@ -1,0 +1,18 @@
+/* Meridian fonts: Inter (body + headlines) and Monaspace Neon (mono, eyebrow). */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal; font-display: swap; font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-400-normal.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal; font-display: swap; font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-500-normal.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal; font-display: swap; font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/monaspace-neon@latest/latin-700-normal.woff2) format("woff2");
+}
