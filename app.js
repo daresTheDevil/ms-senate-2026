@@ -162,7 +162,7 @@
   }
 
   function lead() {
-    const pts = [["Wed 11:58a", 43], ["Wed 5:30p", 1138], ["Thu 9:18a", 1936], ["Thu 1:11p", 1764], ["Thu 5:33p", 1813], ["Thu 6:28p", 1882], ["Fri 11:36a", 2010], ["Fri 5:05p", 2574], ["Mon 11:41a", S.colom - S.hs26]];
+    const pts = [["04NOV 1158", 43], ["04NOV 1730", 1138], ["05NOV 0918", 1936], ["05NOV 1311", 1764], ["05NOV 1733", 1813], ["05NOV 1828", 1882], ["06NOV 1136", 2010], ["06NOV 1705", 2574], ["09NOV 1141", S.colom - S.hs26]];
     const { svg, w, h } = svgFor("c-lead", 260);
     el("title", {}, svg).textContent = "Colom's lead over the count";
     const L = 76, R = 16, T = 16, B = 40, max = 3000;

@@ -2,7 +2,7 @@
 
 https://daresthedevil.github.io/ms-senate-2026/
 
-Scott Colom is leading Cindy Hyde-Smith in the 2026 Mississippi Senate race by about 2,600 votes out of 953,000. The race hasn't been called. Counties certify Nov 13.
+Scott Colom is leading Cindy Hyde-Smith in the 2026 Mississippi Senate race by about 2,600 votes out of 953,000. The race hasn't been called. Counties certify Friday 13NOV2026.
 
 I wanted to know where that lead actually came from, so I lined up all 82 counties against Hyde-Smith's 2020 race against Mike Espy. Same incumbent, so it's a fair comparison.
 
@@ -23,4 +23,4 @@ County totals don't show whether a 2020 Hyde-Smith voter stayed home, voted Colo
 
 ## Where the numbers came from
 
-Unofficial county returns from civicAPI, read Nov 9 at 11:41 a.m. CT. Black population share is from the 2020 Census. Grab the full table as [CSV](data/counties.csv) or [JSON](data/counties.json). Numbers will move until certification.
+Unofficial county returns from civicAPI, read Monday 09NOV2026 at 1141 CT. Black population share is from the 2020 Census. Grab the full table as [CSV](data/counties.csv) or [JSON](data/counties.json). Numbers will move until certification.
