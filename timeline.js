@@ -181,12 +181,12 @@
   // --- Slider ticks
   function buildTicks() {
     const t = $("ticks"); t.textContent = "";
-    const marks = [[A0 + 30 * 60e3, "1930"], [Date.parse("2026-11-04T03:00:00Z"), "2100"], [Date.parse("2026-11-04T05:00:00Z"), "2300"], [A1, "MIDNIGHT", true], [Date.parse("2026-11-04T18:00:00Z"), "WED"], [Date.parse("2026-11-05T18:00:00Z"), "THU"], [Date.parse("2026-11-06T18:00:00Z"), "FRI"]];
-    marks.forEach(([ms, label, brk]) => {
+    const marks = [[A0 + 30 * 60e3, "1930"], [Date.parse("2026-11-04T03:00:00Z"), "2100", false, true], [Date.parse("2026-11-04T05:00:00Z"), "2300", false, true], [A1, "0015", true], [Date.parse("2026-11-04T18:00:00Z"), "WED"], [Date.parse("2026-11-05T18:00:00Z"), "THU"], [Date.parse("2026-11-06T18:00:00Z"), "FRI"]];
+    marks.forEach(([ms, label, brk, opt]) => {
       const s = document.createElement("span");
       s.style.left = (toU(ms) * 100).toFixed(2) + "%";
       s.textContent = label;
-      if (brk) s.className = "brk";
+      s.className = (brk ? "brk" : "") + (opt ? " opt" : "");
       t.appendChild(s);
     });
   }
@@ -207,11 +207,14 @@
   let U = 0;
   function render() {
     const ms = toMs(U), s = stateAt(ms);
-    $("r-time").textContent = stamp(ms);
+    $("r-time").textContent = "";
+    const full = document.createElement("span"); full.className = "t-long"; full.textContent = stamp(ms);
+    const short = document.createElement("span"); short.className = "t-short"; short.textContent = DAYS[ct(ms).getUTCDay()].slice(0, 3) + " " + shortStamp(ms);
+    $("r-time").append(full, short);
     if (!s) {
       ["r-c", "r-h", "r-p"].forEach((id) => { $(id).textContent = "0"; });
       ["r-cp", "r-hp", "r-pp"].forEach((id) => { $(id).textContent = ""; });
-      $("r-lead").textContent = "Polls closed"; $("r-lead").className = "player__leadnum"; $("r-leadlabel").textContent = "Waiting on returns";
+      $("r-lead").textContent = "Polls closed"; $("r-lead").className = "read__lead"; $("r-leadlabel").textContent = "Waiting on returns";
       $("r-pct").textContent = "0%"; $("r-meter").style.width = "0%";
     } else {
       $("r-c").textContent = fmt(s.c); $("r-h").textContent = fmt(s.h); $("r-p").textContent = fmt(s.p);
@@ -219,7 +222,7 @@
       const who = s.lead >= 0 ? "Colom" : "Hyde-Smith";
       $("r-leadlabel").textContent = who + " leads by";
       $("r-lead").textContent = fmt(Math.abs(s.lead));
-      $("r-lead").className = "player__leadnum " + (s.lead >= 0 ? "is-d" : "is-r");
+      $("r-lead").className = "read__lead " + (s.lead >= 0 ? "is-d" : "is-r");
       const pct = s.total / FINAL * 100;
       $("r-pct").textContent = (pct >= 99.95 ? "100" : pct.toFixed(1)) + "%";
       $("r-meter").style.width = pct.toFixed(2) + "%";

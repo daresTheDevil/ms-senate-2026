@@ -15,7 +15,7 @@
 </head>
 <body>
 <div id="tip" role="tooltip"></div>
-<main class="page">
+<main class="page page--wide">
 
 <div class="masthead">
   <a class="masthead__brand" href="./">
@@ -33,63 +33,50 @@
   <p class="lead">Drag through it. Hyde-Smith led most of election night. Colom went ahead a few minutes before midnight and never gave it back.</p>
 </header>
 
-<section class="player" aria-label="Count player">
-  <div class="mrd-card mrd-card--pad player__top">
-    <div class="player__when">
-      <span class="eyebrow">As of (CT)</span>
-      <span class="player__time" id="r-time">&nbsp;</span>
-    </div>
-    <div class="player__lead">
-      <span class="eyebrow" id="r-leadlabel">Leading</span>
-      <span class="player__leadnum" id="r-lead">&nbsp;</span>
-    </div>
-    <div class="player__counted">
-      <span class="eyebrow">Of final count</span>
-      <span class="player__pct" id="r-pct">&nbsp;</span>
-      <span class="meter" aria-hidden="true"><span class="meter__fill" id="r-meter"></span></span>
-    </div>
-  </div>
-
-  <div class="tallies">
-    <div class="tally tally--d"><span class="eyebrow">Colom</span><span class="tally__num" id="r-c">0</span><span class="tally__pct" id="r-cp"></span></div>
-    <div class="tally tally--r"><span class="eyebrow">Hyde-Smith</span><span class="tally__num" id="r-h">0</span><span class="tally__pct" id="r-hp"></span></div>
-    <div class="tally"><span class="eyebrow">Pinkins</span><span class="tally__num" id="r-p">0</span><span class="tally__pct" id="r-pp"></span></div>
-  </div>
-
-  <div class="scrub">
-    <button class="mrd-btn mrd-btn--primary mrd-btn--md" id="play" type="button" aria-label="Play">
+<section class="bar" aria-label="Count player">
+  <div class="bar__row">
+    <button class="mrd-btn mrd-btn--primary bar__play" id="play" type="button" aria-label="Play">
       <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" id="play-icon"><path d="M7 5v14l12-7z"/></svg>
-      <span id="play-label">Play</span>
+      <span id="play-label" class="bar__playlabel">Play</span>
     </button>
     <div class="scrub__track">
       <input type="range" id="scrub" min="0" max="1000" step="1" value="0" aria-label="Time">
       <div class="scrub__ticks" id="ticks" aria-hidden="true"></div>
     </div>
   </div>
-  <p class="note">Drag the slider, or click it and use the arrow keys to step one update at a time. Election night gets more of the slider than the days after, because that's when nearly all of the vote came in.</p>
+  <div class="bar__read">
+    <div class="read"><span class="eyebrow">As of (CT)</span><span class="read__time" id="r-time">&nbsp;</span></div>
+    <div class="read"><span class="eyebrow" id="r-leadlabel">Leading</span><span class="read__lead" id="r-lead">&nbsp;</span></div>
+    <div class="read read--meter"><span class="eyebrow">Of final count</span><span class="read__pct" id="r-pct">&nbsp;</span><span class="meter" aria-hidden="true"><span class="meter__fill" id="r-meter"></span></span></div>
+  </div>
 </section>
 
-<div class="split">
-  <section class="sec" id="map-sec">
-    <span class="eyebrow">Counties</span>
-    <div class="mrd-card mrd-card--pad card-stack">
-      <div class="legend"><span><b style="background:var(--dem)"></b>Colom county</span><span><b style="background:var(--rep)"></b>Hyde-Smith county</span><span><b class="ring"></b>Just reported</span></div>
-      <div class="map" id="map"></div>
-      <p class="note">County colors are final results. They fade in with the statewide count because nobody I could find kept when each county reported on election night. The outlined counties after election night are real: each one lights up when its update came in.</p>
+<div class="board">
+  <section class="mrd-card mrd-card--pad card-stack board__map" id="map-sec" aria-label="County map">
+    <div class="row"><span class="eyebrow">Counties</span>
+      <div class="legend"><span><b style="background:var(--dem)"></b>Colom</span><span><b style="background:var(--rep)"></b>Hyde-Smith</span><span><b class="ring"></b>Just reported</span></div>
     </div>
+    <div class="map" id="map"></div>
+    <p class="note">Colors are final county results. They fade in with the statewide count because nobody I could find kept when each county reported on election night. Outlined counties after election night are real updates, lit up when they landed.</p>
   </section>
 
-  <section class="sec" id="lead-sec">
-    <span class="eyebrow">Who was ahead</span>
-    <div class="mrd-card mrd-card--pad card-stack">
+  <div class="board__side">
+    <div class="tallies">
+      <div class="tally tally--d"><span class="eyebrow">Colom</span><span class="tally__num" id="r-c">0</span><span class="tally__pct" id="r-cp"></span></div>
+      <div class="tally tally--r"><span class="eyebrow">Hyde-Smith</span><span class="tally__num" id="r-h">0</span><span class="tally__pct" id="r-hp"></span></div>
+      <div class="tally"><span class="eyebrow">Pinkins</span><span class="tally__num" id="r-p">0</span><span class="tally__pct" id="r-pp"></span></div>
+    </div>
+    <section class="mrd-card mrd-card--pad card-stack" id="lead-sec" aria-label="Who was ahead">
+      <span class="eyebrow">Who was ahead</span>
       <h3>Election night</h3>
       <div class="chart" id="c-night"></div>
       <h3>The days after</h3>
       <div class="chart" id="c-after"></div>
-      <p class="note">Lead in votes. Above the line is Colom, below is Hyde-Smith. The two charts use different scales: Hyde-Smith was up as much as 22,113 on election night. After that it moved by a couple thousand.</p>
-    </div>
-  </section>
+      <p class="note">Lead in votes. Above the line is Colom, below is Hyde-Smith. Different scales on purpose: Hyde-Smith was up as much as 22,113 on election night. After that it moved by a couple thousand.</p>
+    </section>
+  </div>
 </div>
+<p class="note">Drag the slider, or click it and use the arrow keys to step one update at a time. Election night gets more of the slider than the days after, because that's when nearly all of the vote came in.</p>
 
 <section class="sec" id="log">
   <span class="eyebrow">What happened when</span>
