@@ -23,4 +23,4 @@ County totals don't show whether a 2020 Hyde-Smith voter stayed home, voted Colo
 
 ## Where the numbers came from
 
-Unofficial county returns from civicAPI, read Nov 9 at 11:41 a.m. CT. Black population share is from the 2020 Census. The full table is in `data/counties.csv`. Numbers will move until certification.
+Unofficial county returns from civicAPI, read Nov 9 at 11:41 a.m. CT. Black population share is from the 2020 Census. Grab the full table as [CSV](data/counties.csv) or [JSON](data/counties.json). Numbers will move until certification.

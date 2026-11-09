@@ -61,6 +61,7 @@ td.d { color: var(--dem); font-weight: 600; } td.r { color: var(--rep); font-wei
 .claims .mrd-badge { margin-bottom: var(--space-1-5); }
 
 .row { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
+.btns { display: flex; gap: var(--space-2); flex-wrap: wrap; }
 .dates { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-3); }
 .date { display: grid; gap: var(--space-1); }
 .date__d { font-weight: 800; font-size: var(--text-xl); letter-spacing: var(--tracking-tight); color: var(--text-strong); }
