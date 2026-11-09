@@ -1,0 +1,623 @@
+{
+ "source": "Statewide snapshots: AP and civicAPI via poliwave.com race history. County updates: poliwave.com change feed. Read 09NOV2026.",
+ "snapshots": [
+  {
+   "t": "2026-11-04T01:36:49Z",
+   "total": 511,
+   "colom": 290,
+   "hydesmith": 203,
+   "pinkins": 18,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:41:02Z",
+   "total": 1372,
+   "colom": 831,
+   "hydesmith": 510,
+   "pinkins": 31,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:43:05Z",
+   "total": 2603,
+   "colom": 1620,
+   "hydesmith": 928,
+   "pinkins": 55,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:45:05Z",
+   "total": 4420,
+   "colom": 2452,
+   "hydesmith": 1877,
+   "pinkins": 91,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:48:20Z",
+   "total": 4516,
+   "colom": 2529,
+   "hydesmith": 1895,
+   "pinkins": 92,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:50:56Z",
+   "total": 5901,
+   "colom": 3308,
+   "hydesmith": 2484,
+   "pinkins": 109,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:52:07Z",
+   "total": 9374,
+   "colom": 5459,
+   "hydesmith": 3756,
+   "pinkins": 159,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:54:19Z",
+   "total": 14931,
+   "colom": 8138,
+   "hydesmith": 6529,
+   "pinkins": 264,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:56:54Z",
+   "total": 18166,
+   "colom": 9313,
+   "hydesmith": 8511,
+   "pinkins": 342,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T01:59:13Z",
+   "total": 21116,
+   "colom": 10364,
+   "hydesmith": 10335,
+   "pinkins": 417,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:02:50Z",
+   "total": 36390,
+   "colom": 18804,
+   "hydesmith": 16931,
+   "pinkins": 655,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:05:56Z",
+   "total": 48554,
+   "colom": 24904,
+   "hydesmith": 22728,
+   "pinkins": 922,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:09:12Z",
+   "total": 53916,
+   "colom": 27308,
+   "hydesmith": 25608,
+   "pinkins": 1000,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:12:33Z",
+   "total": 75327,
+   "colom": 35183,
+   "hydesmith": 38751,
+   "pinkins": 1393,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:15:41Z",
+   "total": 94147,
+   "colom": 43099,
+   "hydesmith": 49272,
+   "pinkins": 1776,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:17:42Z",
+   "total": 112128,
+   "colom": 50701,
+   "hydesmith": 59201,
+   "pinkins": 2226,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:21:54Z",
+   "total": 134561,
+   "colom": 58768,
+   "hydesmith": 73118,
+   "pinkins": 2675,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:25:38Z",
+   "total": 159082,
+   "colom": 68779,
+   "hydesmith": 86967,
+   "pinkins": 3336,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:28:31Z",
+   "total": 180772,
+   "colom": 77385,
+   "hydesmith": 99498,
+   "pinkins": 3889,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:30:48Z",
+   "total": 219222,
+   "colom": 96200,
+   "hydesmith": 118143,
+   "pinkins": 4879,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:34:57Z",
+   "total": 242071,
+   "colom": 108301,
+   "hydesmith": 128594,
+   "pinkins": 5176,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:37:57Z",
+   "total": 265946,
+   "colom": 120127,
+   "hydesmith": 140087,
+   "pinkins": 5732,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:41:10Z",
+   "total": 289674,
+   "colom": 131893,
+   "hydesmith": 151614,
+   "pinkins": 6167,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:44:31Z",
+   "total": 314917,
+   "colom": 150856,
+   "hydesmith": 157580,
+   "pinkins": 6481,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T02:47:24Z",
+   "total": 336975,
+   "colom": 160267,
+   "hydesmith": 169934,
+   "pinkins": 6774,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T04:49:35Z",
+   "total": 892130,
+   "colom": 428200,
+   "hydesmith": 444863,
+   "pinkins": 19067,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-04T04:52:44Z",
+   "total": 895920,
+   "colom": 430006,
+   "hydesmith": 446749,
+   "pinkins": 19165,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T04:58:20Z",
+   "total": 898995,
+   "colom": 432685,
+   "hydesmith": 447115,
+   "pinkins": 19195,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:07:13Z",
+   "total": 905970,
+   "colom": 435740,
+   "hydesmith": 450916,
+   "pinkins": 19314,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:26:02Z",
+   "total": 909924,
+   "colom": 437443,
+   "hydesmith": 453075,
+   "pinkins": 19406,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:31:55Z",
+   "total": 923980,
+   "colom": 445259,
+   "hydesmith": 459046,
+   "pinkins": 19675,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:37:58Z",
+   "total": 927224,
+   "colom": 448092,
+   "hydesmith": 459424,
+   "pinkins": 19708,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:49:47Z",
+   "total": 935445,
+   "colom": 454252,
+   "hydesmith": 461392,
+   "pinkins": 19801,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:52:55Z",
+   "total": 939091,
+   "colom": 457321,
+   "hydesmith": 461918,
+   "pinkins": 19852,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T05:55:21Z",
+   "total": 945464,
+   "colom": 462779,
+   "hydesmith": 462751,
+   "pinkins": 19934,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T08:04:19Z",
+   "total": 945534,
+   "colom": 462821,
+   "hydesmith": 462778,
+   "pinkins": 19935,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-04T17:43:56Z",
+   "total": 945587,
+   "colom": 462857,
+   "hydesmith": 462792,
+   "pinkins": 19938,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-04T22:54:21Z",
+   "total": 950598,
+   "colom": 466202,
+   "hydesmith": 464451,
+   "pinkins": 19945,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-04T23:22:32Z",
+   "total": 950722,
+   "colom": 466246,
+   "hydesmith": 464526,
+   "pinkins": 19950,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-05T16:17:30Z",
+   "total": 950729,
+   "colom": 466253,
+   "hydesmith": 464526,
+   "pinkins": 19950,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-05T16:48:53Z",
+   "total": 950814,
+   "colom": 466328,
+   "hydesmith": 464533,
+   "pinkins": 19953,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-05T16:52:39Z",
+   "total": 950855,
+   "colom": 466328,
+   "hydesmith": 464533,
+   "pinkins": 19994,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-05T21:36:52Z",
+   "total": 951315,
+   "colom": 466612,
+   "hydesmith": 464711,
+   "pinkins": 19992,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-05T21:40:02Z",
+   "total": 951405,
+   "colom": 466656,
+   "hydesmith": 464755,
+   "pinkins": 19994,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-05T21:42:57Z",
+   "total": 951618,
+   "colom": 466709,
+   "hydesmith": 464906,
+   "pinkins": 20003,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-05T21:49:13Z",
+   "total": 951677,
+   "colom": 466747,
+   "hydesmith": 464925,
+   "pinkins": 20005,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-05T21:57:56Z",
+   "total": 951826,
+   "colom": 466849,
+   "hydesmith": 464956,
+   "pinkins": 20021,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-05T22:29:29Z",
+   "total": 951893,
+   "colom": 466877,
+   "hydesmith": 464993,
+   "pinkins": 20023,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T14:56:09Z",
+   "total": 951992,
+   "colom": 466959,
+   "hydesmith": 465023,
+   "pinkins": 20010,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-06T15:11:38Z",
+   "total": 952141,
+   "colom": 467061,
+   "hydesmith": 465054,
+   "pinkins": 20026,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T17:50:06Z",
+   "total": 952282,
+   "colom": 467168,
+   "hydesmith": 465087,
+   "pinkins": 20027,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T19:50:20Z",
+   "total": 952324,
+   "colom": 467188,
+   "hydesmith": 465108,
+   "pinkins": 20028,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T20:50:56Z",
+   "total": 952441,
+   "colom": 467255,
+   "hydesmith": 465155,
+   "pinkins": 20031,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T21:00:00Z",
+   "total": 952512,
+   "colom": 467312,
+   "hydesmith": 465183,
+   "pinkins": 20017,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-06T21:12:02Z",
+   "total": 953190,
+   "colom": 467829,
+   "hydesmith": 465336,
+   "pinkins": 20025,
+   "source": "ap"
+  },
+  {
+   "t": "2026-11-06T21:21:09Z",
+   "total": 953339,
+   "colom": 467931,
+   "hydesmith": 465367,
+   "pinkins": 20041,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T21:53:10Z",
+   "total": 953371,
+   "colom": 467948,
+   "hydesmith": 465379,
+   "pinkins": 20044,
+   "source": "civicapi"
+  },
+  {
+   "t": "2026-11-06T23:55:13Z",
+   "total": 953463,
+   "colom": 468032,
+   "hydesmith": 465387,
+   "pinkins": 20044,
+   "source": "civicapi"
+  }
+ ],
+ "events": [
+  {
+   "t": "2026-11-04T22:54:21Z",
+   "counties": [
+    {
+     "county": "Clay",
+     "votes": 2381
+    },
+    {
+     "county": "Lauderdale",
+     "votes": 1925
+    },
+    {
+     "county": "Warren",
+     "votes": 572
+    }
+   ],
+   "note": "Plus 133 votes from a 4th county the feed didn't name."
+  },
+  {
+   "t": "2026-11-04T23:22:32Z",
+   "counties": [
+    {
+     "county": "Alcorn",
+     "votes": 124
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T16:17:30Z",
+   "counties": [
+    {
+     "county": "Jefferson",
+     "votes": 7
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T16:48:53Z",
+   "counties": [
+    {
+     "county": "Claiborne",
+     "votes": 85
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T16:52:39Z",
+   "counties": [
+    {
+     "county": "Lauderdale",
+     "votes": 41
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T21:40:02Z",
+   "counties": [
+    {
+     "county": "Franklin",
+     "votes": 90
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T21:42:57Z",
+   "counties": [
+    {
+     "county": "Itawamba",
+     "votes": 213
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T21:49:13Z",
+   "counties": [
+    {
+     "county": "Wayne",
+     "votes": 59
+    }
+   ]
+  },
+  {
+   "t": "2026-11-05T22:29:29Z",
+   "counties": [
+    {
+     "county": "Perry",
+     "votes": 67
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T17:50:06Z",
+   "counties": [
+    {
+     "county": "Wilkinson",
+     "votes": 141
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T19:50:20Z",
+   "counties": [
+    {
+     "county": "Choctaw",
+     "votes": 42
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T20:50:56Z",
+   "counties": [
+    {
+     "county": "Marion",
+     "votes": 117
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T21:12:02Z",
+   "counties": [
+    {
+     "county": "Oktibbeha",
+     "votes": 502
+    },
+    {
+     "county": "Scott",
+     "votes": 113
+    },
+    {
+     "county": "Greene",
+     "votes": 63
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T21:53:10Z",
+   "counties": [
+    {
+     "county": "Benton",
+     "votes": 32
+    }
+   ]
+  },
+  {
+   "t": "2026-11-06T23:55:13Z",
+   "counties": [
+    {
+     "county": "Holmes",
+     "votes": 92
+    }
+   ]
+  }
+ ]
+}

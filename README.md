@@ -15,6 +15,8 @@ I wanted to know where that lead actually came from, so I lined up all 82 counti
 - Seven counties flipped. None went back. DeSoto, Madison, Forrest, Lafayette, Winston, Grenada and Yalobusha. The "18 counties" number going around is measured against Trump 2024.
 - The late ballots didn't save her. The lead grew from 43 votes on election night as affidavits and absentees came in.
 
+There's also a [timeline](https://daresthedevil.github.io/ms-senate-2026/timeline.html) you can drag through, from the first returns Tuesday night to the last county update Friday. Hyde-Smith led most of election night and was up 22,113 at one point. Colom went ahead at 2355 CT and stayed there.
+
 The page also checks a handful of claims made since election night against the returns, and has the full county table.
 
 ## What it can't tell you
